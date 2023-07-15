@@ -19,6 +19,10 @@
 					<string>Main</string>
 				</dict>
 			</array>
+            <key>UIAppFonts</key>
+            <array>
+                <string>SFProDisplay-Regular.otf</string>
+            </array>
 		</dict>
 	</dict>
 </dict>

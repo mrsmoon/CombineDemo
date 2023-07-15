@@ -13,6 +13,8 @@
 		9D17040D2A61B826003DA981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D17040B2A61B826003DA981 /* Main.storyboard */; };
 		9D17040F2A61B827003DA981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D17040E2A61B827003DA981 /* Assets.xcassets */; };
 		9D1704122A61B827003DA981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1704102A61B827003DA981 /* LaunchScreen.storyboard */; };
+		9D17041A2A61C59C003DA981 /* RentalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1704192A61C59C003DA981 /* RentalTableViewCell.swift */; };
+		9D17041C2A61FAE8003DA981 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D17041B2A61FAE8003DA981 /* SF-Pro-Display-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9D17040E2A61B827003DA981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1704112A61B827003DA981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D1704132A61B827003DA981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D1704192A61C59C003DA981 /* RentalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalTableViewCell.swift; sourceTree = "<group>"; };
+		9D17041B2A61FAE8003DA981 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,18 @@
 				9D17040E2A61B827003DA981 /* Assets.xcassets */,
 				9D1704102A61B827003DA981 /* LaunchScreen.storyboard */,
 				9D1704132A61B827003DA981 /* Info.plist */,
+				9D1704192A61C59C003DA981 /* RentalTableViewCell.swift */,
+				9D17041D2A61FAED003DA981 /* Fonts */,
 			);
 			path = Outdoorsy;
+			sourceTree = "<group>";
+		};
+		9D17041D2A61FAED003DA981 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9D17041B2A61FAE8003DA981 /* SF-Pro-Display-Regular.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			files = (
 				9D1704122A61B827003DA981 /* LaunchScreen.storyboard in Resources */,
 				9D17040F2A61B827003DA981 /* Assets.xcassets in Resources */,
+				9D17041C2A61FAE8003DA981 /* SF-Pro-Display-Regular.otf in Resources */,
 				9D17040D2A61B826003DA981 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D17040A2A61B826003DA981 /* ViewController.swift in Sources */,
+				9D17041A2A61C59C003DA981 /* RentalTableViewCell.swift in Sources */,
 				9D1704062A61B826003DA981 /* AppDelegate.swift in Sources */,
 				9D1704082A61B826003DA981 /* SceneDelegate.swift in Sources */,
 			);
